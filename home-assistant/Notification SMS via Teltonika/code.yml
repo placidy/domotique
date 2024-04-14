@@ -1,0 +1,5 @@
+# Envoi de notification SMS
+rest_command:
+  envoi_sms:
+    url: http://***IP_ROUTEUR_TELTONIKA***/cgi-bin/sms_send?username=***USER***&password=***PASSWORD***&number={{ numero }}&text={{ message_sms }}
+    verify_ssl: false
